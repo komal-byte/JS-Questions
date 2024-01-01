@@ -1,0 +1,23 @@
+
+
+1. var, let, and const:
+   - `var` was traditionally used for variable declaration in JavaScript but has function scope and can be redeclared.
+   - `let` and `const` were introduced in ES6. `let` has block scope and allows reassignment, while `const` also has block scope but its value cannot be reassigned once set (immutable).
+
+2. Undefined vs. Not Defined vs. NaN:
+   - `Undefined`: Variable declared but not assigned a value or a function that doesn't return a value explicitly.
+   - `Not Defined`: Variable that hasn't been declared or is out of scope.
+   - `NaN`: Represents a value that is "Not a Number" when performing arithmetic operations.
+
+3. Null vs. Undefined:
+   - `Null`: Explicitly assigned to a variable to indicate an empty or non-existent value.
+   - `Undefined`: Represents an uninitialized or unassigned value. 
+
+4. Execution Context:
+   - It's the environment where JavaScript code is executed. It comprises variable scope, the `this` keyword, and the call stack. Each function call creates a new execution context.
+
+5. Use of `prompt` in JavaScript:
+   - `prompt` displays a dialog box that prompts the user for input. It takes a message as a parameter and returns the text entered by the user.
+
+6. JavaScript's Dynamic Nature:
+   - JavaScript is dynamic because of its loosely-typed nature and its ability to modify the structure of objects at runtime. Variables can hold different types of data, and objects can be altered on the fly, providing flexibility in coding.
